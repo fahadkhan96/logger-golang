@@ -10,7 +10,7 @@ func main() {
 	// different variants of log as supported by this library `github.com/sirupsen/logrus`
 	log.WithFields(log.Fields{
 		"lion": "hunt",
-	}).Warn("A lion will hunt you")
+	}).Warn("A lion will hunt yous")
 
 	// log.Info
 	log.Info("This is a log information")
